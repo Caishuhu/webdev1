@@ -31,7 +31,7 @@
     background-repeat: repeat;
     background-position: -600px 0;
     animation: fill 5s infinite;
-    animation-iteration-count: forwards;
+    animation-fill-mode: forwards;
   }
   @keyframes fill {
     0% {
