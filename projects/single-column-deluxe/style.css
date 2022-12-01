@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&family=Rubik+Dirt&display=swap");
+
+* {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Rubik Dirt", cursive;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  color: #634030;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+main{
+  padding:2rem;
+}
+
+h2,
+body {
+  font-family: "Maven Pro", sans-serief;
+}
+
+body {
+  background-color: #915d52;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  color: #fddc8e;
+}
+
+p {
+  line-height: 1.6;
+  color: #f3c8b5;
+}
+
+footer p {
+  color: #634030;
+}
+
+section {
+  padding-top: 5rem;
+  margin-bottom: 2.5rem;
+}
+
+section p {
+  margin: 1.5rem 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+a {
+  color: #fddc8e;
+}
+
+a:hover {
+  color: yellowgreen;
+}
+
+nav {
+  margin-top: 1.5rem;
+}
+
+nav a {
+  font-size: 1.5rem;
+  text-decoration-line: none;
+  margin-right: 1rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #aea67b;
+  padding: 3rem;
+}
+
+.center {
+  max-width: 33rem;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #aea67b;
+  padding: 3rem;
+  margin-bottom: 3rem;
+}

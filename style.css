@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Fredericka+the+Great&display=swap');
+
+* {
+    margin: 0;
+   
+  }
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image:url(images/bg.png) ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    max-width: 40rem;
+}
+
+header{
+    padding:2rem;
+    margin-bottom:1rem;
+}
+  h1{
+    font-family:'Cinzel', serif;
+    font-size:3rem;
+    padding:2rem;
+    color:#fceee1;
+  }
+
+  main{
+    padding: 2rem;;
+  }
+
+h2{
+    font-size: 1.5rem;
+    margin:1.5rem 0;
+    color:#f17e00;
+
+}
+
+h2,
+body {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+p,
+footer{
+    color:#084f4b;
+}
+
+nav a {
+    color:#21160b;
+    text-decoration-line: none;
+  }
+  
+  a:hover {
+    color:#eaccb4;
+  }
+  
+  footer{
+    text-align: center;
+    padding: 5rem;;
+  }
+
+  .center{
+    max-width: 35rem;
+    margin: 0 auto;
+    
+  }
+
+  nav,
+  p{
+    line-height: 2rem;
+
+  }

@@ -1,0 +1,32 @@
+body{
+    background-color:black;
+  }
+  
+  h1 {
+    color:lightyellow;
+    background-color:grey;
+    font-size:50px;
+    font-family:gill sans;
+    
+  }
+  
+  
+  p{
+    background-color:cornsilk;
+    font-size:30px;
+    text-align: center;
+     
+  }
+  
+  ul{ 
+      color:cornsilk;
+     font-family:futura;
+      font-size:20px;
+      font-width:30px;
+  }
+  
+  img {
+     height:140px;
+   
+  }
+  
