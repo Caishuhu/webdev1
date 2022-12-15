@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Ubuntu:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+body{
+    font-family:'Ubuntu', sans-serif ;
+    font-weight:300;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+body,
+h2,
+p{
+    margin:0;
+}
+
+h2,p{
+    margin-top: 2rem;
+    margin-bottom: 1em;
+}
+
+img{
+    
+    display:block;
+    max-width: 100%;
+    border-radius: 2em;
+}
+
+
+section{
+    padding:3rem 0;
+    
+}
+
+.container{
+    margin-inline: auto;
+    width:min(90%, 70.5rem);
+}
+
+.set{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+@media(min-width:40em){
+    .set{
+        flex-direction: row;
+    }
+
+    .set > * {
+        flex-basis: 100%;
+    }
+
+    .set > * + * {
+        margin-left: 1.5rem;
+    }
+    }
+    
+
+
+
+.bg-initial{
+     background-color: burlywood;
+}
+.bg-light{
+    background-color: antiquewhite;
+}
+
+.bg-dark{
+    color:cornsilk;
+    background-color:#6b4027;
+}
+
+.bg-brown{
+    color:cornsilk;
+    background-color:darkslategrey;
+}
+

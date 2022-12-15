@@ -12,7 +12,7 @@ html {
   }
 
   body{
-    background:url(shanshui.jpg);
+    background:url(img/shanshui.jpg);
     
     background-size:contain
   }
@@ -72,7 +72,9 @@ html {
     font-family: Arial;
     display: inline-block;
     margin: 1rem;
+   
   }
+  
   
   .container img {
     width: 100%;
@@ -80,8 +82,11 @@ html {
     object-fit: cover;
     object-position: center;
     position: absolute;
+   
   }
-  
+
+
+
   .overlay {
     background-color: rgba(107, 64, 39, .5);
     opacity: 0;
@@ -91,18 +96,19 @@ html {
     font-size: 1rem;
     font-family:'Diplomata SC', cursive ;
     color: #f7b67a;
-    
     display: grid;
     place-items: center;
-    
     transition: opacity .4s;
+  
   }
   
   .container:hover .overlay {
     opacity: 1;
+   
   }
 
 
+  
 .back-to-top {
     color: white;
     background-color: #f7b67a;
