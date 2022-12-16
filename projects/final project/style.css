@@ -123,9 +123,13 @@ html {
   }
 
   footer{
-    color:#6b4027;
-    font-family:'Diplomata SC', cursive;
+  
     text-align: center;
     margin:0 auto;
     padding: 2.5rem;;
+}
+
+#text{
+    color:#6b4027;
+    font-family:'Diplomata SC', cursive;
 }

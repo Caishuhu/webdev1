@@ -88,3 +88,13 @@ section{
     background-color:darkslategrey;
 }
 
+
+footer{
+   
+    font-family: 'Diplomata SC', cursive;
+    color:cornsilk;;
+    background-color:burlywood;
+    text-align: center;
+    margin:0 auto;
+    padding: 2.5rem;;
+}
